@@ -1,7 +1,7 @@
 package com.androiddev.zf.androidadvanced.chapter3.util;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
 import com.androiddev.zf.androidadvanced.R;
@@ -35,5 +35,9 @@ public class ThreadTestActivity extends AppCompatActivity {
             Log.d(TAG, String.valueOf(queue.take()));
         }
         Log.d(TAG, "onCreate:  我还是走到了这里");
+    }
+
+    public void test() {
+        
     }
 }
